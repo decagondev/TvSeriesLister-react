@@ -1,10 +1,19 @@
 import React from 'react';
-import './index.css';
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
+
+const StyledIntro = styled.div`
+  margin-top: 30px;
+`;
 
 const Intro = props => (
-  <div className="App-intro">
+  <StyledIntro>
     {props.message}
-  </div>
+  </StyledIntro>
 );
+
+Intro.propTypes = {
+  message: PropTypes.string
+};
 
 export default Intro;

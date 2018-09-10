@@ -25,7 +25,7 @@ class Series extends React.Component {
     return (
       <div>
         <div>
-          <Intro message="Here you can find all of your most loved series" />
+          <Intro message="Search For Series" />
           <input
             type="text"
             value={seriesName}
