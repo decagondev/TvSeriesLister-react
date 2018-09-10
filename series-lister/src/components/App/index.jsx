@@ -27,6 +27,16 @@ input {
     margin: 15px 0;
     font-size: 1.6rem;
     color: #777;
+    padding: 10px 20px;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      outline: none;
+    }
   }
 `;
 
