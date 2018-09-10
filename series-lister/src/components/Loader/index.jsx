@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import loaderSrc from '../../assets/loader.gif';
 
-const StyledLoaderImage = styled.image`
+const StyledLoaderImage = styled.img`
   width: 200px;
 `;
 
