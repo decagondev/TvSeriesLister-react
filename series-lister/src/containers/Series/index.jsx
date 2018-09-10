@@ -16,7 +16,10 @@ class Series extends React.Component {
     this.setState({ seriesName: event.target.value, isFetching: true });
     fetch(`http://api.tvmaze.com/search/shows?q=${event.target.value}`)
       .then(res => res.json())
-      .then(json => this.setState({ series: json, isFetching: false }));
+      .then(json => this.setState({ series: json, isFetching: false }))
+      .catch(function() {
+        console.log("error");
+    });
   };
 
   render() {
