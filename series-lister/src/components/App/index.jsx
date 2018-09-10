@@ -19,7 +19,7 @@ const StyledHeaderTitle = styled.h1`
 
 const StyledAppIntro = styled.div`
   font-size: 1.6rem;
-input {
+  input {
     height: 40px;
     width: 300px;
     border-radius: 15px;
@@ -32,10 +32,16 @@ input {
 
     &:focus {
       outline: none;
+      -webkit-box-shadow: 3px 4px 37px -2px rgba(166, 166, 166, 1);
+      -moz-box-shadow: 3px 4px 37px -2px rgba(166, 166, 166, 1);
+      box-shadow: 3px 4px 37px -2px rgba(166, 166, 166, 1);
     }
 
     &:active {
       outline: none;
+      -webkit-box-shadow: 3px 4px 37px -2px rgba(166, 166, 166, 1);
+      -moz-box-shadow: 3px 4px 37px -2px rgba(166, 166, 166, 1);
+      box-shadow: 3px 4px 37px -2px rgba(166, 166, 166, 1);
     }
   }
 `;
